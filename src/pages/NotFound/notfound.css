@@ -1,0 +1,31 @@
+.img-not-found{
+    padding-top: 180px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-serch-not-found{
+    align-items: center;
+    display: flex;
+    height: 250px;
+}
+.card-img-not-found{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.text-notfound{
+    font-size: var(--font-size-titulo);
+    color: var(--secundary-color);
+    font-weight: bold;
+}
+.card-text-notfound{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around
+}

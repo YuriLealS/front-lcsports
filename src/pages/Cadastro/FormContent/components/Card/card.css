@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+    width: 100%;
+}
+
+.card h1 {
+  margin-top: 0;
+  color: var(--terciary-color);
+  font-weight: bold;
+  align-self: center;
+  font-size: 130%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  margin-left: 8px;
+}
+
+.card .button {
+  align-self: center;
+  margin: 8px 0;
+  padding: 8px px;
+  background-color: var(--secundary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card .button:hover {
+  background-color: var(--primary-color-hover);
+  color: var(--secundary-color);
+}
+
+.card .error-message {
+  font-size: 0.7rem;
+  color: red;
+  margin-left: 4;
+}
+
+.card .sign-in-text {
+  margin-top: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .sign-in-text a {
+  color: var(--terciary-color);
+}

@@ -1,0 +1,154 @@
+.background {
+    position: relative;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+    align-items: center;
+}
+
+.div-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-categoria{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.btn-titulo-categoria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.ipt-titulo{
+    width: 50%;
+}
+
+.select-box{
+    background-color: var(--terciary-color);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: transparent;
+    font-size: 18px;
+    border-radius: 150px;
+}
+
+.cardErro {
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* Altera o fluxo dos elementos filhos para coluna */
+    align-items: center;
+    height: 150px;
+    width: 400px;
+    top: 16vh;
+    left: 60vw;
+    background-color: var(--secundary-color);
+    border-radius: 10px;
+    color: var(--white-pure-color);
+    padding: 10px; /* Ajusta o espaçamento interno */
+  }
+
+.botoes {
+    background-color: var(--terciary-color);
+    border: none;
+    color: var(--white-pure-color);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 20px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Alterar hover do botão aqui */
+.botoes:hover {
+    background-color: var(--secundary-color-hover);
+}
+
+.botao-postar:hover {
+    background-color: var(--secundary-color-hover);
+}
+
+.card-cinza-postagem {
+    background-color: rgb(218, 218, 218);
+    width: 50%;
+    border-radius: 16px;
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-postar {
+    background-color: var(--terciary-color);
+    border: none;
+    color: var(--white-pure-color);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:20px 20px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.div-btn-postar{
+    display: flex;
+    align-items: center;
+}
+
+.tittle {
+    padding: 0 16px;
+    color: var(--secundary-color);
+    font-size: var(--font-size-titulo);
+}
+
+.textarea-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.invisible-textarea {
+    resize: none;
+}
+
+.error-title{
+    color: red;
+}
+
+.miniatura {
+    margin-left: 2vw;
+    margin-bottom: -30px;
+    width: 100px; /* Defina o valor desejado para a largura */
+    height: auto; /* Mantém a proporção de aspecto da imagem */
+  }

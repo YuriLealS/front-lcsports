@@ -1,0 +1,46 @@
+:root {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary-color: #d6dce0;
+  --primary-color-hover: #c0c8cf;
+  --secundary-color: #000234;
+  --secundary-color-hover: #313255;
+  --typography-secundary-color: #bf3240;
+  --terciary-color:#80C4EF;
+  --typography-secundary-color: #bf3641;
+  --white-color: #ffffff8a;
+  --white-pure-color: #fff;
+  --font-size-titulo: 32px;
+  --font-size-texto: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root:-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+:root::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+:root::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #afa9a969;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  justify-content: center;
+}
